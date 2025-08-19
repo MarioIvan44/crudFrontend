@@ -1,5 +1,5 @@
 //Dirección de la api
-const API_URL = "http://localhost:8080/api/category";
+const API_URL = "http://localhost:8081/api/category";
 
 export async function getCategories(){
     const res = await fetch(`${API_URL}/getDataCategories`);
